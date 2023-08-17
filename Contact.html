@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOTO VEGA ABOGADOS 
+        Y CONSULTORES, S.C.</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+         <a href="Index.html"><img src=""></a>
+         <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hidemenu()"></i>
+             <ul>
+                 <li><a href="Index.html"> Inicio </a></li>
+                 <li><a href="Areas.html">Informacion </a></li>
+                 <li><a href="Contact.html"> Ubicacion </a></li>
+              
+ 
+             </ul>
+         </div>
+ 
+         <i class="fa fa-bars" onclick="Showmenu()"></i>
+        </nav> 
+        <h1> SOTO VEGA ABOGADOS <BR>
+         Y CONSULTORES, S.C. </h1>
+ 
+
+ 
+     </section>
+
+ <section class="location">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.5696914909316!2d-99.14618407063905!3d19.4435443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92818ad253b%3A0x15748f0fee652db!2sCjon.%20Zarco%20102%2C%20Guerrero%2C%20Cuauht%C3%A9moc%2C%2006300%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1689296302283!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </section>
+ <section class="contact-us">
+ <div class="row">
+     <div class="contact-col">
+         <div>
+             <i class="fa fa-home"></i>
+             <span>
+                 <h5>Nuestra ubicacion:</h5>
+                 <p>Calle Zarco #102, Colonia Guerrero <br>
+                    Alcadia Cuauhtemoc, C.P 06300 interior 001<br>
+                    Ciudad de Mexico
+                 </p>
+             </span>
+         </div>
+         <div>
+             <i class="fa fa-phone"></i>
+         <span>
+             <h5>
+                 TEL: 55-90-70-90-50
+                 <p>De 7:00am a 6:00pm</p>
+             </h5>
+         </span>
+         </div>
+         <div>
+             <i class="fa fa-phone"></i>
+         <span>
+             <h5>
+                 TEL: 55-74-77-58-37
+                 <p></p>
+             </h5>
+         </span>
+         </div>
+         <div>
+             <i class="fa fa-phone"></i>
+         <span>
+             <h5>
+                 TEL: 55-91-98-76-69
+                 <p> </p>
+             </h5>
+         </span>
+         </div>
+         <div>
+             <i class="fa fa-phone"></i>
+         <span>
+             <h5>
+                 TEL: 55-32-33-85-69
+                 <p></p>
+             </h5>
+         </span>
+         </div>
+         <div>
+             <i class="fa fa-envelope" aria-hidden="true"></i>
+                 <span>
+                     <h5>
+                         sotovegaayalaasociadossc@gmail.com
+                     </h5>
+                     <p>Envianos un correo para mayor informes</p>
+                 </span>
+         </div>
+     </div>
+ 
+     <div class="contact-col">
+         <form action="form-handler.php" method="post">
+           <input type="text" name="name" placeholder="Enter your name" required>
+           <input type="email" name="email" placeholder="Enter your e-mail" required>
+           <input type = "text"name="subject" placeholder="Enter your subject" required>
+ 
+           <textarea rows="8" name="Message" placeholder="Message" required>
+           </textarea>
+           <button type="submit" class="hero-btn red-btn">Send Message </button>
+         </form>
+     
+     </div>
+ </div>
+ </section>
+ 
+ 
+ <section class="footer">
+     <h4> Conoce más sobre nosotros </h4>
+     <p>Puede conocer mas sobre nosotros en nuestras redes sociales, 
+        en cualquiera de los medios que usted elija será cordialmente recibido 
+        y atendido de una manera grata y profesional. Gracias por elegirnos como representantes 
+        de sus asuntos, estamos complacidos de ayudarle</p>
+           <div class="icons">
+            <div class="icons">
+                <i class="fa-brands fa-facebook" style="color: #c32c3b;"></i>
+                <i class="fa-brands fa-twitter" style="color: #972032;"></i>
+                <i class="fa-brands fa-instagram" style="color: #7f2936;"></i>
+                <i class="fa-brands fa-linkedin" style="color: #a02c3d;"></i>
+    
+              </div>
+ 
+           </div>
+ </section>
+ <!---Uso de script-->
+ <script>
+     var navLinks = document.getElementById("navLinks");
+     function Showmenu(){
+         navLinks.style.right = "0";
+         
+     }
+     function hidemenu(){
+         navLinks.style.right = "-200px";
+     }
+ 
+ 
+ </script>
+</body>
+</html>
